@@ -1,0 +1,22 @@
+{
+  "name": "mm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index ./input.csv",
+    "start-large": "node index ./large-example-2.csv",
+    "lint": "node ./node_modules/eslint/bin/eslint index.js",
+    "test": "node ./node_modules/mocha/bin/mocha **/*.test.js"
+  },
+  "author": "Anton Shanyuk",
+  "license": "MIT",
+  "dependencies": {
+    "comma-separated-values": "^3.6.4",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "mocha": "^4.0.1"
+  }
+}
