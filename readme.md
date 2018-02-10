@@ -1,14 +1,14 @@
-Prerequisites:
-- Node.js 4+
-- npm
+* Prerequisites:
+  * Node.js 4+
+  * npm
 
 * Installation:
-  **npm install**
+  * **npm install**
 * Run with basic csv:
-  **npm start**
+  * **npm start**
 * Run with large csv:
-  **npm run start-large**
+  * **npm run start-large**
 * Check tests:
-  **npm test**
+  * **npm test**
 * Check linting:
-  **npm run lint**
+  * **npm run lint**
